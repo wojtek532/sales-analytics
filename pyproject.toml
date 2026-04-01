@@ -1,0 +1,25 @@
+[project]
+name = "ml-project"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "pandas",
+    "numpy",
+    "scikit-learn",
+    "plotly",
+    "matplotlib",
+    "seaborn",
+    "xgboost",
+    "shap",
+    "fastapi",
+    "streamlit",
+    "gradio",
+    "python-dotenv",
+]
+
+[tool.ruff]
+line-length = 88
+select = ["E", "F", "I"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
