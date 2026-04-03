@@ -1,20 +1,17 @@
 [project]
-name = "ml-project"
+name = "sales-analytics"
 version = "0.1.0"
 requires-python = ">=3.11"
 dependencies = [
     "pandas",
     "numpy",
-    "scikit-learn",
-    "plotly",
     "matplotlib",
     "seaborn",
-    "xgboost",
-    "shap",
-    "fastapi",
+    "plotly",
     "streamlit",
-    "gradio",
-    "python-dotenv",
+    "sqlalchemy>=2.0",
+    "jupyter>=1.1",
+    "ipykernel>=7.2",
 ]
 
 [tool.ruff]
