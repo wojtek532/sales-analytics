@@ -99,18 +99,13 @@ sales-analytics/
 ## Jak uruchomić
 
 ```bash
-git clone https://github.com/TWOJ_USERNAME/sales-analytics
+git clone https://github.com/wojtek532/sales-analytics
 cd sales-analytics
 uv venv && source .venv/bin/activate
 uv pip install -e .
-
-# Zbuduj bazę danych
-python src/database.py
-
-# Uruchom dashboard
 streamlit run app.py
-```
 
+```
 ---
 
 ## Notebooki
